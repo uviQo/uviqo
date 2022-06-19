@@ -379,6 +379,7 @@ display: inline-flex;
     display: grid;
 }
 .hero-brand-block{
+position: absolute;	
 right: 0;
 left: 0;
 bottom: 10px;
