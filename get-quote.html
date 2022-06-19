@@ -290,15 +290,15 @@ html {
 									name="feedback-form">
 									<div class="fieldsets row">
 										<div class="col-md-6">
-											<input type="text" placeholder="Full Name" name="name">
+											<input type="text" placeholder="Full Name" name="name" required>
 										</div>
 										<div class="col-md-6">
-											<input type="email" placeholder="Email Address" name="email">
+											<input type="email" placeholder="Email Address" name="email" required>
 										</div>
 									</div>
 									<div class="fieldsets row">
 										<div class="col-md-6">
-											<input type="number" placeholder="Contact Number"
+											<input type="number" placeholder="Contact Number required"
 												name="phone">
 										</div>
 										<div class="col-md-6">
@@ -308,11 +308,11 @@ html {
 									<div class="fieldsets row">
 
 										<div class="col-md-6">
-											<input type="text" placeholder="Subject" name="subject">
+											<input type="text" placeholder="Subject" name="subject" required>
 										</div>
 										<div class="col-md-6">
-											<select>
-												<option>interested in</option>
+											<select class="required">
+												<option >interested in</option>
 												<option>Web Design</option>
 												<option>Graphic Design</option>
 												<option>App Development</option>
