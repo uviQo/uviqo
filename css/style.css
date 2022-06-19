@@ -380,7 +380,7 @@ display: inline-flex;
 }
 .home-hero-brand {
     position: relative;
-    height: 15vh;
+    height: 25vh;
     align-items: center;
     display: grid;
 }
